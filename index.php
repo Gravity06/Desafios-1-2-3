@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-  <title>Aula de método</title>
+    <meta charset="UTF-8">
+    <title>Quiz - Página Inicial</title>
 </head>
 <body>
-  <form action="desafio1.php" method="get">
-    Nome: <input type="text" name="cxnome">
-    <input type="submit" value="Enviar">
-  </form>
+    <h2>Bem-vindo ao Quiz!</h2>
+    <form action="quiz.php" method="post">
+        <label for="nome">Digite seu nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <button type="submit">Iniciar Quiz</button>
+    </form>
 </body>
 </html>
